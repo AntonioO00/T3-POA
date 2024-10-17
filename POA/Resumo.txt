@@ -1,0 +1,41 @@
+É sábado e o bar da pequena cidadezinha do velho oeste esta cheio. Infelizmente ele esta cheio de pistoleiros das duas quadrilhas locas, Bando Bigode e o Comando Capeta. O ambiente esta ficando pesado com provações pra lá e pra cá quando o barman resolve aliviar um pouco o clima, afinal ele não quer perder metade dos seus fregueses mesmo sabendo que o primo dele, que é coveiro, adoraria fazer negócios. Afinal, o barman sempre diz "Eles podem beber todos os dias, mas só da pra enterrar uma vez"
+Em um momento o silencio entre as provocações mutuas o barman fala em voz alta, como se estivesse pensando ao acaso:
+"Outro dia o xerife estava aqui e perguntou se já tinha havido algum mexican standoff de duas quadrilhas aqui no bar. Sabe ne, aquela coisa de todo mundo ficar apontando armar pros outros e ninguém pode fazer nada. Eu respondi que não. afinal não te como sair daquilo.
+Dai o xerife olhou pro piso de lajotas e quis saber se colocando um pistoleiro em cada lajota daria pra fazer muitos standoffs diferentes. Pra facilitar e ele falou que os pistoleiros podiam se "enxergar" com se fossem rainhas do jogo xadrez, olhando apenas a mesma linha, coluna e as diagonais.
+Mas ele quer saber apenas dos casos em que um pistoleiro só ve pelo menos dois pistoleiros da outra quadrilha e nenhum da sua. São pelo menos dois dos outros pra poder apontar uma arma de cada um, igual nos filmes."
+
+Claro que essa situação do cotidiano causou muto interesse e polemica, o que garantiu uma tarde de um sábado animado e cheia de discussão sobre as possibilidades , E se não houver o mesmo numero de pistoleiros nas duas quadrilhas? E se fossem mais de duas quadrilhas? E se as lajotas fossem hexagonais? Felizmente, naquele sábado eles prefeririam ficar no problema mais convencional, com duas quadrilhas e lajotas quadradas.
+Você deve escrever um algoritmo baseado em backtracking que leia a configuração do bar via linha de comando (como os casos abaixo) e escreva como saída um inteiro para cada caso, informando quantas maneiras possíveis existem de posicionar os pistoleiros. A entrada tem o seguinte formato:
+- O numero n de lajotas dando as dimensões do piso n x n;
+- o numero de b Bigodudos;
+- o numero c de Capetas;
+
+Seu programa deve pegar os três números pela linha de comando:
+java salao 5 3 5 // n, b, c
+java salao 6 4 2
+java salao 10 5 5 
+
+algumas possibilidade validas
+
+. . . . p
+. p g . .
+. . . p g
+p g . . .
+. . p . .
+
+--------
+
+. . . . p
+. p . . g
+. . . p .
+p . . g .
+g . p . .
+
+----------
+. . . . p
+. p . . .
+. . g p .
+p . . . g
+. g p . .
+
+
